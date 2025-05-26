@@ -26,7 +26,8 @@ Step to solve: [Before solving the lab use foxyproxy extension and add Burp Suit
     1. Open Burp Suite and access the LAB.
     2. Connect the proxy and turn on intercept.
     3. Now select a catergory and reload the page then send the request to the repeater and turn off intercept.
-    4. Now we will find out number of column and what type of data it's storing. 
+    4. Now we will find out number of column and what type of data it's storing. [Use cheat sheet to get all the payloads]
+    
         for column, use [Category]'+order+by+n+-- (n=1,2,3...n)
         if it's storing data or not
             [Category]'+union+select+null,+null+--
