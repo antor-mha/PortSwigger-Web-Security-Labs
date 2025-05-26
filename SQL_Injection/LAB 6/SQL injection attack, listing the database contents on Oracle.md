@@ -26,7 +26,8 @@ Step to solve: [Before solving the lab use foxyproxy extension and add Burp Suit
     1. Open Burp Suite and access the LAB.
     2. Connect the proxy and turn on intercept.
     3. Now select a catergory and reload the page then send the request to the repeater and turn off intercept.
-    4. We have to retrieve tables, and to do that use this query
+    4. We have to retrieve tables, and to do that use this query  [Use cheat sheet to get all the payloads]
+    
         'union+select+table_name,+null+from+all_tables+--
         send it and copy the url. 
         and find a user type like this "USERS_IADGQO"
